@@ -15,6 +15,10 @@
 		4A3C44F11DB4C35100BB3C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C44EF1DB4C35100BB3C98 /* LaunchScreen.storyboard */; };
 		4A3C44FC1DB4C35100BB3C98 /* StoreAnalyzeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C44FB1DB4C35100BB3C98 /* StoreAnalyzeTests.m */; };
 		4A3C45071DB4C35100BB3C98 /* StoreAnalyzeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3C45061DB4C35100BB3C98 /* StoreAnalyzeUITests.m */; };
+		B537DC071DB4DC7400C18EB3 /* JMPurchaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B537DC021DB4DC7400C18EB3 /* JMPurchaseViewController.m */; };
+		B537DC081DB4DC7400C18EB3 /* JMPurchaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537DC031DB4DC7400C18EB3 /* JMPurchaseViewController.xib */; };
+		B537DC091DB4DC7400C18EB3 /* JMStoreListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B537DC051DB4DC7400C18EB3 /* JMStoreListViewController.m */; };
+		B537DC0A1DB4DC7400C18EB3 /* JMStoreListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B537DC061DB4DC7400C18EB3 /* JMStoreListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		4A3C45021DB4C35100BB3C98 /* StoreAnalyzeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoreAnalyzeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3C45061DB4C35100BB3C98 /* StoreAnalyzeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreAnalyzeUITests.m; sourceTree = "<group>"; };
 		4A3C45081DB4C35100BB3C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B537DC011DB4DC7400C18EB3 /* JMPurchaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMPurchaseViewController.h; sourceTree = "<group>"; };
+		B537DC021DB4DC7400C18EB3 /* JMPurchaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMPurchaseViewController.m; sourceTree = "<group>"; };
+		B537DC031DB4DC7400C18EB3 /* JMPurchaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMPurchaseViewController.xib; sourceTree = "<group>"; };
+		B537DC041DB4DC7400C18EB3 /* JMStoreListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMStoreListViewController.h; sourceTree = "<group>"; };
+		B537DC051DB4DC7400C18EB3 /* JMStoreListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMStoreListViewController.m; sourceTree = "<group>"; };
+		B537DC061DB4DC7400C18EB3 /* JMStoreListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMStoreListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,12 @@
 		4A3C44E01DB4C35100BB3C98 /* StoreAnalyze */ = {
 			isa = PBXGroup;
 			children = (
+				B537DC011DB4DC7400C18EB3 /* JMPurchaseViewController.h */,
+				B537DC021DB4DC7400C18EB3 /* JMPurchaseViewController.m */,
+				B537DC031DB4DC7400C18EB3 /* JMPurchaseViewController.xib */,
+				B537DC041DB4DC7400C18EB3 /* JMStoreListViewController.h */,
+				B537DC051DB4DC7400C18EB3 /* JMStoreListViewController.m */,
+				B537DC061DB4DC7400C18EB3 /* JMStoreListViewController.xib */,
 				4A3C44E41DB4C35100BB3C98 /* AppDelegate.h */,
 				4A3C44E51DB4C35100BB3C98 /* AppDelegate.m */,
 				4A3C44E71DB4C35100BB3C98 /* ViewController.h */,
@@ -248,7 +264,9 @@
 			files = (
 				4A3C44F11DB4C35100BB3C98 /* LaunchScreen.storyboard in Resources */,
 				4A3C44EE1DB4C35100BB3C98 /* Assets.xcassets in Resources */,
+				B537DC081DB4DC7400C18EB3 /* JMPurchaseViewController.xib in Resources */,
 				4A3C44EC1DB4C35100BB3C98 /* Main.storyboard in Resources */,
+				B537DC0A1DB4DC7400C18EB3 /* JMStoreListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +293,9 @@
 			files = (
 				4A3C44E91DB4C35100BB3C98 /* ViewController.m in Sources */,
 				4A3C44E61DB4C35100BB3C98 /* AppDelegate.m in Sources */,
+				B537DC071DB4DC7400C18EB3 /* JMPurchaseViewController.m in Sources */,
 				4A3C44E31DB4C35100BB3C98 /* main.m in Sources */,
+				B537DC091DB4DC7400C18EB3 /* JMStoreListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +525,7 @@
 				4A3C450D1DB4C35100BB3C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A3C450E1DB4C35100BB3C98 /* Build configuration list for PBXNativeTarget "StoreAnalyzeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				4A3C45101DB4C35100BB3C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A3C45111DB4C35100BB3C98 /* Build configuration list for PBXNativeTarget "StoreAnalyzeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				4A3C45131DB4C35100BB3C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "JMStoreListViewController.h"
+#import "JMPurchaseViewController.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic,strong) UITabBarController* tabbarController;
 @end
 
 @implementation AppDelegate
@@ -17,6 +19,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _tabbarController = [[UITabBarController alloc] init];
+    JMStoreListViewController *storeList = [[JMStoreListViewController alloc] initWithNibName:@"JMStoreListViewController" bundle:nil];
+    JMPurchaseViewController *purchaseViewController = [[JMPurchaseViewController alloc] initWithNibName:@"JMPurchaseViewController" bundle:nil];
+    UIViewController *viewController = [[UIViewController alloc] init];
+    NSArray *viewControllers = @[storeList,purchaseViewController,viewController];
+    [_tabbarController setViewControllers:viewControllers];
+    [_window setRootViewController:_tabbarController];
+    [_window makeKeyAndVisible];
     return YES;
 }
 
