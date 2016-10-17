@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "JMStoreListViewController.h"
 #import "JMPurchaseViewController.h"
-
+#import "VendorViewController.h"
 @interface AppDelegate ()
 @property (nonatomic,strong) UITabBarController* tabbarController;
 @end
@@ -23,8 +23,9 @@
     _tabbarController = [[UITabBarController alloc] init];
     JMStoreListViewController *storeList = [[JMStoreListViewController alloc] initWithNibName:@"JMStoreListViewController" bundle:nil];
     JMPurchaseViewController *purchaseViewController = [[JMPurchaseViewController alloc] initWithNibName:@"JMPurchaseViewController" bundle:nil];
-    UIViewController *viewController = [[UIViewController alloc] init];
-    NSArray *viewControllers = @[storeList,purchaseViewController,viewController];
+//    UIViewController *viewController = [[UIViewController alloc] init];
+    VendorViewController *vendor = [VendorViewController new];
+    NSArray *viewControllers = @[storeList,purchaseViewController,vendor];
     [_tabbarController setViewControllers:viewControllers];
     [_window setRootViewController:_tabbarController];
     [_window makeKeyAndVisible];
